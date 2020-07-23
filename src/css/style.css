@@ -8,6 +8,12 @@ body {
 .h-86 {
   height: 86%;
 }
+.btn:focus {
+  box-shadow: none !important;
+}
+.our-works button:hover {
+  color: #bb9c36;
+}
 #hero {
   background: url("../img/hero.png");
   background-repeat: no-repeat;
@@ -212,7 +218,7 @@ nav.scroll {
   border-radius: 5px;
 }
 .our-works .active:focus {
-  outline: 0;
+  box-shadow: 0;
 }
 .caro1,
 .b1,
