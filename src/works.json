@@ -33,7 +33,7 @@
     "imageName": "works4.png",
     "direction": "left",
     "description": "Library",
-    "category": ["office", "residential", "hospital", "hotel"]
+    "category": ["office", "residential"]
   },
   {
     "id": 4,
@@ -42,7 +42,7 @@
     "imageName": "works5.png",
     "direction": "top",
     "description": "Restaurant",
-    "category": ["office", "hospital", "hotel", "restaurant"]
+    "category": ["office", "hotel", "restaurant"]
   },
   {
     "id": 5,

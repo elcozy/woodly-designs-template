@@ -15,6 +15,18 @@ body {
   background-size: cover;
   height: 50vh;
 }
+.btn:focus {
+  box-shadow: none !important;
+}
+.our-works button:hover {
+  color: #bb9c36;
+}
+#about,
+#services,
+#collections,
+#works {
+  overflow-x: hidden;
+}
 .navbar-brand {
   font-size: 26px;
   font-weight: 600;
