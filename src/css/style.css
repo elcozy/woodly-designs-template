@@ -72,6 +72,18 @@ button {
 .discoverr:hover {
   color: antiquewhite;
 }
+.btn:focus {
+  box-shadow: none !important;
+}
+.our-works button:hover {
+  color: #bb9c36;
+}
+#about,
+#services,
+#collections,
+#works {
+  overflow-x: hidden;
+}
 #about h3,
 #services h3,
 #works h3,
