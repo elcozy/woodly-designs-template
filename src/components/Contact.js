@@ -1,7 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Image, Form } from 'react-bootstrap';
-import Carousel from 'react-multi-carousel';
-
+import { Container, Row, Col, Form } from 'react-bootstrap';
 import "../css/style.css";
 
 function Contact({ data }) {

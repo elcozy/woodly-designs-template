@@ -5,7 +5,7 @@ import {
     Col,
     Carousel,
 } from "react-bootstrap";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Slide } from "react-awesome-reveal";
 import { Collection1, Collection2, Collection3, Collection4, Collection5 } from "./Modal";
 import "../css/style.css";
 
@@ -40,7 +40,6 @@ function Collections({ data }) {
                                     <Slide direction="left">
                                         <div className="position-absolute caroz">
                                             <h3>Wardrobe</h3>
-
                                             <a href="#" alt={"shop now"}>
                                                 <h5>Shop Now</h5>
                                             </a>

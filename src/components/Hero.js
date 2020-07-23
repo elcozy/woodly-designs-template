@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav, Container, Jumbotron, Row, Col } from 'react-bootstrap';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 // import Scrollspy from 'react-scrollspy'
 import ScrollspyNav from "react-scrollspy-nav";

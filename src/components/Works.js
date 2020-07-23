@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
-import { Slide, Fade } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 import "../css/style.css";
 
 function Work({ data }) {
