@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "title": "RESIDENTIAL DESIGN",
+    "imageLocation": "./img/services1.png",
+    "direction": "left",
+    "imageName": "services1.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 1,
+    "title": "OFFICE DESIGN",
+    "imageLocation": "./img/services2.png",
+    "direction": "bottom",
+    "imageName": "services2.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 1,
+    "title": "LIBRARY DESIGN",
+    "imageLocation": "./img/services3.png",
+    "direction": "right",
+    "imageName": "services3.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 1,
+    "title": "HOTEL DESIGN",
+    "imageLocation": "./img/services4.png",
+    "direction": "left",
+    "imageName": "services4.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 1,
+    "title": "RESTAURANT DESIGN",
+    "imageLocation": "./img/services5.png",
+    "direction": "top",
+    "imageName": "services5.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  }
+]

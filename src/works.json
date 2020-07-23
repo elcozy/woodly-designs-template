@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "title": "RESTAURANT DECORATION",
+    "imageLocation": "./img/works1.png",
+    "imageName": "works1.png",
+    "direction": "left",
+    "description": "Restaurant",
+    "category": ["restaurant"]
+  },
+  {
+    "id": 1,
+    "title": "LIVING ROOM DECORATION",
+    "imageLocation": "./img/works2.png",
+    "imageName": "works2.png",
+    "direction": "bottom",
+    "description": "Residential",
+    "category": ["office", "residential", "hotel"]
+  },
+  {
+    "id": 2,
+    "title": "HOTEL ROOM DECORATION",
+    "imageLocation": "./img/works3.png",
+    "imageName": "works3.png",
+    "direction": "right",
+    "description": "Hotels",
+    "category": ["residential", "hotel"]
+  },
+  {
+    "id": 3,
+    "title": "LIBRARY DECORATION",
+    "imageLocation": "./img/works4.png",
+    "imageName": "works4.png",
+    "direction": "left",
+    "description": "Library",
+    "category": ["office", "residential", "hospital", "hotel"]
+  },
+  {
+    "id": 4,
+    "title": "RESTAURANT DECORATION",
+    "imageLocation": "./img/works5.png",
+    "imageName": "works5.png",
+    "direction": "top",
+    "description": "Restaurant",
+    "category": ["office", "hospital", "hotel", "restaurant"]
+  },
+  {
+    "id": 5,
+    "title": "WORKSPACE DECORATION",
+    "imageLocation": "./img/works6.png",
+    "imageName": "works6.png",
+    "direction": "right",
+    "description": "Office",
+    "category": ["office", "residential", "hospital"]
+  }
+]
