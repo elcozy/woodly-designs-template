@@ -16,7 +16,7 @@
     "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "LIBRARY DESIGN",
     "imageLocation": "./img/services3.png",
     "direction": "right",
@@ -24,7 +24,7 @@
     "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
   },
   {
-    "id": 1,
+    "id": 3,
     "title": "HOTEL DESIGN",
     "imageLocation": "./img/services4.png",
     "direction": "left",
@@ -32,11 +32,19 @@
     "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
   },
   {
-    "id": 1,
+    "id": 4,
     "title": "RESTAURANT DESIGN",
     "imageLocation": "./img/services5.png",
     "direction": "top",
     "imageName": "services5.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 2,
+    "title": "LIBRARY DESIGN",
+    "imageLocation": "./img/services3.png",
+    "direction": "right",
+    "imageName": "services3.png",
     "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
   }
 ]

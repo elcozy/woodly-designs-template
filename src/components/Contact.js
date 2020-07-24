@@ -79,16 +79,17 @@ function Contact({ data }) {
                                 <Col xs={5} className="px-0"><a href="#">Shop</a></Col>
                             </Row>
                         </Col>
-                        <Col xs={3} lg={2} className="my-3 my-md-1 c mt-4 mt-lg-0 socials">
+                        <Col xs={4} lg={2} className="my-3 my-md-1 c mt-4 mt-lg-0 socials">
                             <h5>Social</h5>
-                            <Row className="text-center">
-                                <Col xs={4} className="p-0 mb-3"><a href="#"><img src={"../img/twit.png"}></img></a></Col>
-                                <Col xs={4} className="p-0 mb-3"><a href="#"><img src={"../img/insta.png"}></img></a></Col>
-                                <Col xs={4} className="p-0 mb-3"><a href="#"><img src={"../img/faceb.png"}></img></a></Col>
-                                <Col xs={4} className="p-0 mb-3"><a href="#"><img src={"../img/linkn.png"}></img></a></Col>
-                                <Col xs={4} className="p-0 mb-3"><a href="#"><img src={"../img/gplus.png"}></img></a></Col>
-                            </Row></Col>
-                        <Col xs={9} lg={4} className="my-3 my-md-1 d">
+                            <div className="text-left d-flex flex-wrap">
+                                <Col xs={4} className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/twit.png"}></img></a></Col>
+                                <Col xs={4} className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/insta.png"}></img></a></Col>
+                                <Col xs={4} className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/faceb.png"}></img></a></Col>
+                                <Col xs={4} className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/linkn.png"}></img></a></Col>
+                                <Col xs={4} className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/gplus.png"}></img></a></Col>
+                            </div>
+                        </Col>
+                        <Col xs={8} lg={4} className="my-3 my-md-1 d">
                             <h5>Stay Informed</h5>
                             <p className="font-weight-normal">Get the scoop on new products and more.</p>
                             <Form className="position-relative sign-up ">
@@ -103,11 +104,15 @@ function Contact({ data }) {
             <div className="footer-con py-3 py-md-4">
                 <Container>
                     <div className="d-flex flex-row justify-content-left">
-                        <h5>
-                            woodly. All Rights Reserved 2020 |
+                        <h5 className="pr-md-3">
+                            woodly. All Rights Reserved 2020
                     </h5>
-                        <a href="#"><h5>Terms & Conditions |</h5></a>
-                        <a href="#"><h5>Privacy Policy</h5></a>
+                        <h5 className="pr-md-3">|
+                    </h5>
+                        <a href="#"><h5 className="pr-md-3">Terms & Conditions</h5></a>
+                        <h5 className="pr-md-3">|
+                    </h5>
+                        <a href="#"><h5 className="pr-md-3">Privacy Policy</h5></a>
                     </div>
                 </Container>
 

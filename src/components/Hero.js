@@ -34,7 +34,7 @@ function Hero({ data }) {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
                             <ScrollspyNav className="m-0 d-block p-0 d-md-flex" offset={-200} scrollDuration="100" scrollTargetIds={['hero', 'about', 'services', 'collections', 'contact']} activeNavClass="is-current" headerBackground="true">
-                                <ul className="ml-auto d-block d-md-flex m-0">
+                                <ul className="ml-auto d-block d-md-flex m-0 pl-0">
                                     <Nav.Link href="#hero" className="text-center text-white px-4">Home</Nav.Link>
                                     <Nav.Link href="#about" className="text-center text-white px-4">About</Nav.Link>
                                     <Nav.Link href="#services" className="text-center text-white px-4">Services</Nav.Link>
