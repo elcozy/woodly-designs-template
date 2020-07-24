@@ -7,7 +7,7 @@ import "../css/style.css";
 function About({ data }) {
 
     return (
-        <div id="about" className="rounded-0 pt-4 my-md-5">
+        <div id="about" className="rounded-0 py-5 my-md-5">
             <Container>
                 <Row>
                     <Col sm={12} md={6}>

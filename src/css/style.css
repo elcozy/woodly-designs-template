@@ -26,7 +26,7 @@ html,
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
 }
 .navbar-brand {
   font-size: 26px;
@@ -56,8 +56,8 @@ button {
 .hero-cont h1 {
   font-weight: normal;
   font-size: 25px;
-  line-height: 41px;
-  letter-spacing: 1px;
+  line-height: 55px;
+  letter-spacing: 1.5px;
 }
 .hero-cont button {
   font-size: 12px;
@@ -466,8 +466,9 @@ nav.scroll {
     padding-right: 12px;
   }
   .discoverr {
-    padding-top: 2.5rem !important;
-    padding-bottom: 2.5rem !important;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    font-size: 18px !important;
   }
 }
 

@@ -33,7 +33,7 @@ function Hero({ data }) {
 
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
-                            <ScrollspyNav className="m-0 d-block p-0 d-md-flex" offset={-80} scrollDuration="100" scrollTargetIds={['hero', 'about', 'services', 'collections', 'contact']} activeNavClass="is-current" headerBackground="true">
+                            <ScrollspyNav className="m-0 d-block p-0 d-md-flex" offset={-200} scrollDuration="100" scrollTargetIds={['hero', 'about', 'services', 'collections', 'contact']} activeNavClass="is-current" headerBackground="true">
                                 <ul className="ml-auto d-block d-md-flex m-0">
                                     <Nav.Link href="#hero" className="text-center text-white px-4">Home</Nav.Link>
                                     <Nav.Link href="#about" className="text-center text-white px-4">About</Nav.Link>
@@ -48,10 +48,10 @@ function Hero({ data }) {
             </Navbar>
             <Container className=" h-86 h-md-100 d-flex">
                 <div className="text-center text-white m-auto hero-cont">
-                    <h1>
-                        Modern and Minimalistic Designs
+                    <h1 className="mb-3">
+                        Modern and Minimalistic <br></br>Designs
     </h1>
-                    <a href="#about"> <button className="mt-4 rounded-circle discoverr py-4 px-2 py-md-5 px-md-4">Discover</button></a>
+                    <a href="#about"> <button className="mt-5 rounded-circle discoverr py-4 px-2 py-md-4 px-md-4">Discover</button></a>
                 </div>
             </Container>
         </div >

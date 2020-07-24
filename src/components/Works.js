@@ -15,7 +15,7 @@ function Work({ data }) {
         setFilterData(filtered)
     };
     return (
-        <div id="work" className="rounded-0 py-4">
+        <div id="work" className="work rounded-0 py-4">
             <div id="works">
                 <Container className="text-center py-4">
                     <div className="text-center mb-3">
