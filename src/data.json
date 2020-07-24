@@ -38,5 +38,13 @@
     "direction": "top",
     "imageName": "services5.png",
     "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
+  },
+  {
+    "id": 1,
+    "title": "RESTAURANT DESIGN",
+    "imageLocation": "./img/services5.png",
+    "direction": "top",
+    "imageName": "services5.png",
+    "description": "The blend of your needs with our ideas giving you the furniture that makes your house become a home."
   }
 ]
