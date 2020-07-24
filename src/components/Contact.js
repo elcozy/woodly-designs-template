@@ -82,11 +82,15 @@ function Contact({ data }) {
                         <Col xs={5} lg={2} className="my-3 my-md-1 c mt-4 mt-lg-0 socials">
                             <h5>Social</h5>
                             <div className="text-left d-flex flex-wrap">
-                                <Col xs className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/twit.png"}></img></a></Col>
-                                <Col xs className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/insta.png"}></img></a></Col>
-                                <Col xs className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/faceb.png"}></img></a></Col>
-                                <Col xs className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/linkn.png"}></img></a></Col>
-                                <Col xs className="p-0 mb-3"><a href="#"><img className="img-fluid" src={"../img/gplus.png"}></img></a></Col>
+                                <Col xs={12} className="text-left d-flex flex-wrap p-0 mb-3">
+                                    <a href="#"><img className="img-fluid pr-3 pr-md-4" src={"../img/twit.png"}></img></a>
+                                    <a href="#"><img className="img-fluid pr-3 pr-md-4" src={"../img/insta.png"}></img></a>
+                                    <a href="#"><img className="img-fluid pr-3" src={"../img/faceb.png"}></img></a>
+                                </Col>
+                                <Col xs={12} className="text-left d-flex flex-wrap p-0">
+                                    <a href="#"><img className="img-fluid pr-3 pr-md-4" src={"../img/linkn.png"}></img></a>
+                                    <a href="#"><img className="img-fluid" src={"../img/gplus.png"}></img></a>
+                                </Col>
                             </div>
                         </Col>
                         <Col xs={7} lg={4} className="my-3 my-md-1 d">
