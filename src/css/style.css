@@ -27,7 +27,6 @@ html,
   background-position: center;
   background-size: cover;
   height: 100vh;
-  background-attachment: fixed;
 }
 .navbar-brand {
   font-size: 26px;
@@ -398,6 +397,9 @@ nav.scroll {
   .navbar-brand {
     font-size: 34px;
     font-weight: 600;
+  }
+  #hero {
+    background-attachment: fixed;
   }
   nav {
     position: fixed !important;
